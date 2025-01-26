@@ -27,9 +27,3 @@
 <p align="center">
   <img src="./prototype1/image2.jpg" alt="Prototype Image 2" width="400">
 </p>
-
-<h2 align="center">Features</h2>
-
-- **Monitors soil moisture levels** to determine watering needs.
-- **Automatically waters plants** based on predefined thresholds.
-- Helps conserve water while reducing manual effort.
