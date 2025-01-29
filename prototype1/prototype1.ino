@@ -3,7 +3,7 @@
 #define ENGINE_OUTPUT 2
 
 #define DELAY_MIN 60
-#define ENGINE_WORK_TIME_MS 3000
+#define WATERING_DURATION_MS 2000
 #define MAX_SENSOR_VALUE 1023
 #define MOISTURE_PERCENTAGE_THRESHOLD 50
 #define MIN_MOISTURE_PERCENTAGE 30
@@ -31,7 +31,7 @@ void loop()
         sensorValue >= MIN_MOISTURE_PERCENTAGE)
     {
         digitalWrite(ENGINE_OUTPUT, HIGH);
-        delay(ENGINE_WORK_TIME_MS);
+        delay(WATERING_DURATION_MS);
         digitalWrite(ENGINE_OUTPUT, LOW);
     }
 
